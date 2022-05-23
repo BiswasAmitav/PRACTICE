@@ -1,0 +1,32 @@
+.div1{
+    border: 3px solid green;
+    width: 800px;
+    padding: 5px;
+    position: static;
+}
+.div2{
+   border:3px solid red; 
+   width: 800px;
+   padding: 5px;
+   position: relative;
+   left:30px;
+}
+
+.div3{
+    border:3px solid orange; 
+    width: 800px;
+    height: 300px;
+    padding: 5px;
+    position: relative;
+
+ }
+
+ .div4{
+     border: 2px solid pink;
+     width: 150px;
+     height: 80px;
+     padding: 5px;
+     position: absolute;
+     left: 100px;
+     top: 100px;
+ }

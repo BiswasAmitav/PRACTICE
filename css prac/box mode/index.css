@@ -1,0 +1,74 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+body{
+    background-color: rgb(243, 241, 237);
+}
+
+.container{
+    background-color: rgb(231,230,241);
+    border: 3px solid rgb(64,6,119);
+    margin-top: 5px;
+    padding: 10px;
+}
+.container:hover{
+    background-color:rgb(64,6,119);
+    color: white;
+    border: 3px solid white;
+    transition: all 1s;
+}
+
+
+
+
+/*======================================*/
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+.container1 {
+    width: 900px;
+    border: 5px solid purple;
+    margin: auto;
+    margin-top: 40px;
+    padding: 24px;
+}
+.container1:hover{
+    border: 5px solid red;
+}
+
+.item{
+    border: 3px solid grey;
+    margin: 12px 3px;
+    padding: 1px 3px;
+    background: rgb(233, 83, 95);
+}
+
+.item:hover{
+    background: red;
+    color: white;
+    transition: all 1s;
+}
+
+#fruits{
+    float: left;
+    width: 48%;
+    display: inline-block;
+}
+#computer{
+    float: left;
+    width: 48%;
+}
+#stainary{
+    float: right;
+    width: 100%;
+    clear:both;
+}
+
+
+
+

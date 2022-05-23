@@ -1,0 +1,26 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background: rgb(59, 48, 48);
+    position: relative;
+    left: 100px;
+}
+.box::before{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: rgb(46, 180, 46);
+    position: absolute;
+    left: -100px;
+
+}
+.box::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: rgb(241, 25, 205);
+    position: absolute;
+    left: +100px;
+}

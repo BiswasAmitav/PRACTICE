@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css transformation</title>
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .container{
+            height: 600px;
+            background-color: burlywood;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+        }
+        .box{
+            background-color: brown;
+            border: 2px solid green; 
+            border-radius: 10px;
+            height: 200px;
+            width: 200px;
+            transition: all .7s ease-in-out;
+            margin: 0px 6px;
+        }
+
+        .box2{
+            display: flex;
+            background-color: burlywood;
+            border: 2px solid green; 
+            border-radius: 10px;
+            height: 18px;
+            width: 100px;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            
+            
+}
+        .box:hover{
+            transform: scale(.95)
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            This is the first box.
+            <div class="box2">
+                Learn More
+            </div>
+        </div>
+
+        <div class="box">
+            This is the first box.
+            <div class="box2">
+                Learn More
+            </div>
+        </div>
+
+        <div class="box">
+            This is the first box.
+            <div class="box2">
+                Learn More
+            </div>
+        </div> 
+        <div class="box">
+            This is the first box.
+            <div class="box2">
+                Learn More
+            </div>
+        </div>
+    </div>
+</body>
+</html>
